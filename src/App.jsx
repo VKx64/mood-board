@@ -103,7 +103,7 @@ function App() {
 
 
         <div className='flex mt-1 p-4 w-1/4 h-fit text-black justify-center gap-5'>
-          <button className="btn btn-outline btn-accent rounded">Download</button>
+          <button className="btn btn-outline btn-accent rounded" onClick={handleExport}>Download</button>
           <button className="btn btn-outline btn-accent rounded" onClick={() => window.location.reload()}>Refresh</button>
         </div>
       </div>
