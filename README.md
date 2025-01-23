@@ -1,8 +1,15 @@
-# React + Vite
+# Mood Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun web app that generates a random 3x3 grid of emojis and a mood-related slang. Users can refresh the grid or download it as an image.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Displays a grid of random emojis.
+- Generates a random slang phrase.
+- Allows users to **refresh** the grid.
+- Lets users **download** the mood board as a PNG.
+
+## Usage
+
+- **Refresh** the grid using the "Refresh" button.
+- **Download** the mood board as a PNG using the "Download" button.
